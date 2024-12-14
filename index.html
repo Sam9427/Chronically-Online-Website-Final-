@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chronically Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div class="landing-page">
+        <h1 id="typed-text" class="glowy-text"></h1>
+        <button class="enter-button" onclick="navigateToMain()">Enter</button>
+    </div>
+
+    <!-- Main Content Page -->
+    <div class="main-page" style="display: none;">
+        <nav>
+    <ul>
+        <li class="glowy-tab" onclick="showTab(0)">Home</li>
+        <li class="glowy-tab" onclick="showTab(1)">Social Media And Our Bodies</li>
+        <li class="glowy-tab" onclick="showTab(2)">Social Media And Our Partnerships</li>
+        <li class="glowy-tab" onclick="showTab(3)">Social Media And Our Friends</li>
+        <li class="glowy-tab" onclick="showTab(4)">Final Thoughts</li>
+        <li class="glowy-tab" onclick="showTab(5)">Co-Pop Quiz</li>
+        <li class="glowy-tab" onclick="showTab(6)">Chronically Online Hotline</li>
+    </ul>
+</nav>
+        <div class="tab-content">
+            <!-- Tabs Content -->
+            <div id="tab-0" class="tab">
+                <div class="iphone-frame">
+                    <p>Throughout this semester, I have been honored to be a part of so many enriching conversations that circulate the beauties, misconceptions, and abuse of the internet within our techno-savvy culture. However, amidst all that we have conversed about, social media and its algorithms have plagued my mind for ages more specifically in how we maneuver our various relationships. Whether it be our friendships, partnerships, connections with our careers, connections to our bodies, etc, I’m sure we can all agree this is not a “new or hot” take, however, I wanted to dedicate this project to help others reflect on their behaviors with social media and hopefully place a reset on our patterns for those who can be classified as “chronically online”.</p>
+                    <p>The term originated in 2019-2020 primarily from the social media platforms Twitter and Reddit and was popularized within the context of internet memes and cultural reflections. It can be best defined as someone whose life and worldview become increasingly dominated by internet activity, often in ways that can be deemed as unbalanced or unhealthy.</p>
+                </div>
+            </div>
+            <div id="tab-1" class="tab">
+                <div class="iphone-frame">
+                    <p>Social media has a profound impact on how individuals perceive and relate to their bodies, often amplifying societal standards of beauty and fitness. Platforms like Instagram, TikTok, and Pinterest are filled with curated images that portray idealized body types, leading many users to compare themselves to these often unrealistic standards. This constant exposure to "perfection" can contribute to body dissatisfaction, low self-esteem, and disordered eating behaviors, particularly among adolescents and young adults. </p>
+                    <p>Again, I’m sure one of us has felt subjected to this at one point or another, but it’s also worth mentioning how social media has also opened the floodgates to the dehumanizing and desensitization of the commentary that surrounds people's bodies. As a culture, I believe we have become too fixated and too comfortable commenting on the appearance of others. Whether we think it’s a compliment or not, we must stop picking apart people's bodies and proceeding to diagnose, and speculate certain health conditions, surgeries, and dietary plans that a person may or not have or be on. I can also recognize how idealistic and unrealistic that request is knowing how an app like Instagram thrives on tapping into its user's vanity and itch for public validation.  For example with the recent release of the movie Wicked starring Cynthia Erivo and Ariana Grande, I have seen firsthand on TikTok the annoying, draining, and often rude think pieces of how both cast members' appearances changed during and after their roles. Was it necessary? No,  It’s as though every comment section is a potential breeding ground for unwarranted, non-professional advice. 
+</p>
+                </div>
+            </div>
+            <div id="tab-2" class="tab">
+                <div class="iphone-frame">
+                    <p>Social media also has the power to influence our romantic relationships as well, often serving as both a tool for connection and a source of tension. There is the side that helps force couples to stay in touch, share moments, and express affection through posts, messages, and photos. However, these couples are also susceptible to online discourse and think pieces, where others share their opinions on how a functioning relationship should look like, what other individuals should want/ not want, etc.</p>
+                    <p> The problem with this is that it influences others' opinions on how to navigate their own romantic relationships. However, it is important to mention that the boundaries and expectations for every couple are different so constantly comparing relationships can cause feelings of jealousy or dissatisfaction. Additionally, social media aids the phenomenon of "oversharing"—where individuals might share intimate details of their relationship online, which can lead to privacy concerns or miscommunication.</p>
+                </div>
+            </div>
+            <div id="tab-3" class="tab">
+                <div class="iphone-frame">
+                    <p>Social media has transformed how people maintain friendships, enabling constant communication and the sharing of life events, no matter the context or the distance. Social media is created for all of us to remain connected, for example, friends can celebrate each other’s milestones—such as birthdays or promotions—by posting supportive comments or sharing content.</p>
+
+                    <p> However, social media also creates challenges in friendships, such as the potential for shallow or transactional interactions that lack depth. The "like" culture, where friendships are often measured by online engagement, can make some individuals feel neglected or excluded if their posts receive little attention. For instance, if a person notices that a friend has posted a major life event but didn't acknowledge theirs, it can create feelings of resentment. Additionally, platforms like Instagram can foster a false sense of closeness, as friends may keep up with each other’s lives through posts without actually engaging in meaningful, face-to-face conversations. This can lead to a superficial sense of connection while undermining the depth of real-world friendships.</p>
+                </div>
+            </div>
+            <div id="tab-4" class="tab">
+                <div class="iphone-frame">
+                    <p>Social media isn’t real. Despite the amount of time and effort individuals devote to it, carefully cultivating, commenting, posting, and creating their own digital landscape, it is not reflective of how the real world works. Social media provides us with the luxury of being able to get lost within our own creations and collections of life whether it be for better or worse, but we have to navigate the challenges, confusions, and frustrations of our relationships on our own. </p>
+                </div>
+            </div>
+            <div id="tab-5" class="tab">
+    <div class="iphone-frame">
+        <form id="quiz-form">
+            <p>Do you check social media as soon as you wake up and before you go to sleep?</p>
+            <label><input type="checkbox" class="yes-answer" name="q1-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q1-no"> No</label><br>
+
+            <p>Do you often find yourself spending hours scrolling through social media or websites?</p>
+            <label><input type="checkbox" class="yes-answer" name="q2-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q2-no"> No</label><br>
+
+            <p>Do you frequently participate in online debates or arguments, even about topics you don't fully understand?</p>
+            <label><input type="checkbox" class="yes-answer" name="q3-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q3-no"> No</label><br>
+
+            <p>Do you get upset if you miss a popular meme or trend online?</p>
+            <label><input type="checkbox" class="yes-answer" name="q4-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q4-no"> No</label><br>
+
+            <p>Do you often find yourself checking your phone for notifications?</p>
+            <label><input type="checkbox" class="yes-answer" name="q5-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q5-no"> No</label><br>
+
+            <p>Do you often get distracted by social media while working or studying?</p>
+            <label><input type="checkbox" class="yes-answer" name="q6-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q6-no"> No</label><br>
+
+            <p>Do you follow trends, hashtags, or challenges on social media without thinking much about it?</p>
+            <label><input type="checkbox" class="yes-answer" name="q7-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q7-no"> No</label><br>
+
+            <p>Do you feel a strong urge to check your phone even when you're in a conversation?</p>
+            <label><input type="checkbox" class="yes-answer" name="q8-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q8-no"> No</label><br>
+
+            <p>Do you find yourself comparing your life to what you see on social media?</p>
+            <label><input type="checkbox" class="yes-answer" name="q9-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q9-no"> No</label><br>
+
+            <p>Do you feel anxious or uncomfortable when you're unable to check social media?</p>
+          <label><input type="checkbox" class="yes-answer" name="q10-yes"> Yes</label><br>
+            <label><input type="checkbox" name="q10-no"> No</label><br>
+
+            <button type="button" onclick="calculateQuizScore()">Submit</button>
+        </form>
+        <p id="quiz-result"></p>
+        <button id="retry-button" style="display:none;" onclick="resetQuiz()">Retry Quiz</button>
+    </div>
+</div>
+ 
+            <div id="tab-6" class="tab">
+                <div class="iphone-frame">
+                    <p>It is imperative to disconnect from the online discourse and online spaces and substitute it with other pastimes to help enrich, strengthen, and stimulate your mind, below is a list of links that may be helpful to you.</p>
+                    <ul>
+                        <li><a href="https://www.cnet.com/health/mental/social-media-detox/" target="_blank">CNET: Social Media Detox</a></li>
+                        <li><a href="https://www.calm.com/blog/social-media-detox" target="_blank">Calm: Social Media Detox</a></li>
+                        <li><a href="https://www.understood.org/en/articles/how-i-beat-my-social-media-habit-and-how-you-can-too" target="_blank">Understood: Beat Social Media Habit</a></li>
+                        <li><a href="https://www.brainzooming.com/blog/creative-thinking-34-ideas-for-a-bored-adult-to-beat-boredom" target="_blank">Brainzooming: Creative Ideas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

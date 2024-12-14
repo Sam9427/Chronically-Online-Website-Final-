@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f0;
+}
+
+/* Landing Page */
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('keyboard-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.glowy-text {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 0 0 5px #ff66cc, 0 0 10px #ff66cc, 0 0 20px #ff66cc;
+}
+
+.enter-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.enter-button:hover {
+    background-color: white;
+    color: #ff66cc;
+}
+
+/* Tabs and Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #ff99cc;
+    border-bottom: 2px solid #ff66cc;
+}
+
+nav ul li {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #ff99cc;
+    transition: background-color 0.3s ease;
+    font-family: "San Francisco", sans-serif;  /* San Francisco font */
+    font-size: 1.2rem;
+}
+
+/* Add glowing effect to the tabs */
+nav ul li.glowy-tab {
+    text-shadow: 0 0 5px #ff66cc, 0 0 10px #ff66cc, 0 0 15px #ff66cc;
+}
+
+/* Apply glow effect on hover */
+nav ul li:hover {
+    background-color: #ff66cc;
+    color: white;
+    text-shadow: 0 0 5px #ff66cc, 0 0 10px #ff66cc, 0 0 20px #ff66cc;
+}
+
+.tab {
+    display: none;
+    padding: 20px;
+    background-color: #ffebf5;
+    font-family: "San Francisco", sans-serif; /* San Francisco font */
+    letter-spacing: 0.5px; /* Space out text slightly */
+}
+
+.tab.active {
+    display: block;
+}
+
+.iphone-frame {
+    border: 5px solid #ff66cc;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* Style the tabs content */
+.tab {
+    display: none;
+    padding: 20px;
+    background-color: #ffebf5;
+    line-height: 1.6;
+}
+
+.tab.active {
+    display: block;
+}
+
+.iphone-frame {
+    border: 5px solid #ff66cc;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+/* Spacing out text for readability */
+p {
+    letter-spacing: 0.5px; /* Slight spacing for better readability */
+    line-height: 1.8;
+}
+
+/* Quiz */
+#quiz-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#quiz-result {
+    margin-top: 10px;
+    font-weight: bold;
+} 
+.fade-out {
+    animation: fadeOut 1s forwards; /* Apply fade-out animation */
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1; /* Fully visible */
+    }
+    100% {
+        opacity: 0; /* Fully transparent */
+    }
+}
+
+
